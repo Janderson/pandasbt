@@ -26,6 +26,10 @@ pbt.zscore(df_test, 20, "close")
 
 
 #### Calculation Buy and Sell signals
+That mean add a signal column into dataframe.  
+0 - means nothing  
+-1 - means sell  
+1 - means buy  
 
 ```python
 import pandasbt as pbt
