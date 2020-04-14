@@ -24,3 +24,16 @@ or you can specify the column
 pbt.zscore(df_test, 20, "close")
 ```
 
+
+#### Calculation Buy and Sell signals
+
+```python
+import pandasbt as pbt
+
+df_test = pd.DataFrame([
+    {"close": 25}, {"close": 15}, {"close": 41}, {"close": 7},
+    {"close": 5}, {"close": 115}, {"close": 45}, {"close": 32},
+])
+
+pbt.calc_signal(df_test, buy_query="close > 20", sell_query="close < 10")
+```
