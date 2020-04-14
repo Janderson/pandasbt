@@ -21,4 +21,4 @@ def test_calc_zscore_should_not_modify_original_df():
 
     assert round(zscore(df_test, 2).zscore.iloc[-1]*100) == -71
 
-    assert not "zscore" in df_test.columns
+    assert "zscore" not in df_test.columns
