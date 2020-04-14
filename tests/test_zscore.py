@@ -12,3 +12,13 @@ def test_calc_zscore():
         {"close": 25}, {"close": 15}, {"close": 45}, {"close": 32}
     ])
     assert round(zscore(df_test, 2).zscore.iloc[-1]*100) == -71
+
+
+def test_calc_zscore_should_not_modify_original_df():
+    df_test = pd.DataFrame([
+        {"close": 25}, {"close": 15}, {"close": 45}, {"close": 32}
+    ])
+
+    assert round(zscore(df_test, 2).zscore.iloc[-1]*100) == -71
+
+    assert not "zscore" in df_test.columns
