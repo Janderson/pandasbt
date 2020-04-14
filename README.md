@@ -17,5 +17,10 @@ df_test = pd.DataFrame([
     {"close": 5}, {"close": 115}, {"close": 45}, {"close": 32},
 ])
 
-pbt.zscore(df_test)
+pbt.zscore(df_test, period=20)
 ```
+or you can specify the column
+```python
+pbt.zscore(df_test, 20, "close")
+```
+
