@@ -5,7 +5,7 @@ Simples Framework to Backtest Strategies using pandas
 * [Installation](#Installation)
 * [Calculating a factor using zscore](#calculating-a-factor-using-zscore)
 * [Calculating Buy and Sell signals](#calculating-buy-and-sell-signals)
-* [Calculate a Higher Timeframe using a Lower Timeframe](#Calculate a Higher Timeframe (Like D1) using a Lower Timeframe (Like M5))
+* [Calculate a Higher Timeframe using a Lower Timeframe](#calculate-a-higher-timeframe-like-d1-using-a-lower-timeframe-like-m5)
 
 #### Installation
 ----------
@@ -14,7 +14,7 @@ pip install pandasbt
 ```
 
 
-#### Calculation a factor zscore
+#### Calculating a factor zscore
 ```python
 import pandasbt as pbt
 
