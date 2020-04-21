@@ -3,8 +3,8 @@ Simples Framework to Backtest Strategies using pandas
 
 ## Resume:
 * [Installation](#Installation)
-* [Calculating a factor using zscore](#Calculating a factor using zscore)
-* [Calculating Buy and Sell signals](#Calculating Buy and Sell signals)
+* [Calculating a factor using zscore](#calculating-a-factor-using-zscore)
+* [Calculating Buy and Sell signals](#calculating-buy-and-sell-signals)
 * [Calculate a Higher Timeframe using a Lower Timeframe](#Calculate a Higher Timeframe (Like D1) using a Lower Timeframe (Like M5))
 
 #### Installation
