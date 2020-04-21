@@ -2,7 +2,7 @@
 Simples Framework to Backtest Strategies using pandas
 
 ## Resume:
-[Installation](!#Installation)
+* [Installation](#Installation)
 [Calculation a factor zscore]
 
 #### Installation
