@@ -3,7 +3,9 @@ Simples Framework to Backtest Strategies using pandas
 
 ## Resume:
 * [Installation](#Installation)
-[Calculation a factor zscore]
+* [Calculating a factor using zscore](#Calculating a factor using zscore)
+* [Calculating Buy and Sell signals](#Calculating Buy and Sell signals)
+* [Calculate a Higher Timeframe using a Lower Timeframe](#Calculate a Higher Timeframe (Like D1) using a Lower Timeframe (Like M5))
 
 #### Installation
 ----------
@@ -29,7 +31,7 @@ pbt.zscore(df_test, 20, "close")
 ```
 
 
-#### Calculation Buy and Sell signals
+#### Calculating Buy and Sell signals
 That mean add a signal column into dataframe.  
 0 - means nothing  
 -1 - means sell  
