@@ -1,6 +1,10 @@
 # PandasBT
 Simples Framework to Backtest Strategies using pandas
 
+## Resume:
+[Installation](!#Installation)
+[Calculation a factor zscore]
+
 #### Installation
 ----------
 ```
@@ -41,3 +45,6 @@ df_test = pd.DataFrame([
 
 pbt.calc_signal(df_test, buy_query="close > 20", sell_query="close < 10")
 ```
+
+### Calculate a Higher Timeframe (Like D1) using a Lower Timeframe (Like M5)
+pbt.build_timeframe(df_test, timeframe="M5)
